@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess a Number (1 - 100)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container bg-dark w-100 p-4">
+    <div class="alert invisible" role="alert">
+        nothing here..
+    </div>
+  
+        <div class="card">
+            <h5 class="card-header">Guess The Number</h5>
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter a number (1-100)" id="inputBox" autofocus />
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-success" id="submitBtn">
+                            Submit Guess
+                        </button>
+                    </div>
+                </div>
+
+                <p class="card-text">
+                    10 Turns remaining. <br> 
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
